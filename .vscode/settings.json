@@ -1,0 +1,23 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.documentSelectors": ["**/*.sol"],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "[solidity]": {
+    "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+  },
+  "solidity.remappings": [
+    "@fhevm/=node_modules/@fhevm/"
+  ],
+  "solidity.compileUsingRemoteVersion": "v0.8.27",
+  "solidity.packageDefaultDependenciesContractsDirectory": "contracts",
+  "solidity.packageDefaultDependenciesDirectory": "node_modules",
+  "wake.compiler.solc.remappings": [
+    "@fhevm/=node_modules/@fhevm/",
+    "@openzeppelin/=node_modules/@openzeppelin/",
+    "@zama-fhe/=node_modules/@zama-fhe/",
+    "encrypted-types/=node_modules/encrypted-types/",
+    "hardhat-deploy/=node_modules/hardhat-deploy/",
+    "hardhat/=node_modules/hardhat/"
+  ]
+}
